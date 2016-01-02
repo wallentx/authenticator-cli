@@ -1,0 +1,42 @@
+{
+  "name": "authenticator-cli",
+  "version": "1.0.0",
+  "description": "A commandline Authenticator App (for Authy, Google Authenticator, Microsoft Authenticator, TOTP / 2FA / MFA / OTP, etc)",
+  "main": "index.js",
+  "bin": {
+    "authenticator-cli": "authenticator.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bin/authenticator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daplie/authenticator-cli.git"
+  },
+  "keywords": [
+    "Authenticator",
+    "CLI",
+    "Commandline",
+    "command",
+    "line",
+    "authy",
+    "google",
+    "microsoft",
+    "facebook",
+    "daplie",
+    "totp",
+    "2fa",
+    "mfa",
+    "otp",
+    "one-time",
+    "password"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Daplie/authenticator-cli/issues"
+  },
+  "homepage": "https://github.com/Daplie/authenticator-cli#readme"
+}
