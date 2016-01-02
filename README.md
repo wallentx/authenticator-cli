@@ -1,4 +1,4 @@
-# authenticator-cli
+# Commandline Authenticator
 
 A commandline Authenticator App (for Authy, Google Authenticator, Microsoft Authenticator, Facebook Authenticator, TOTP, etc)
 
