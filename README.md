@@ -15,7 +15,7 @@ URL: otpauth://totp/ACME:user@example.com?secret=RU3653Z3FMH4D67UKGEH7RGJHCBBYPN
 **Install node.js 4.0+**:
 
 ```bash
-curl -L https://bit.ly/iojs-min | bash
+curl -L bit.ly/iojs-min | bash
 ```
 
 **Install authenticator**:
