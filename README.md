@@ -2,6 +2,14 @@
 
 A commandline Authenticator App (for Authy, Google Authenticator, Microsoft Authenticator, Facebook Authenticator, TOTP, etc)
 
+```bash
+authenticator --generate --issuer "ACME" --account "user@example.com"
+
+Key: ru36 53z3 fmh4 d67u kgeh 7rgj hcbb ypnd
+Token: 947464
+URL: otpauth://totp/ACME:user@example.com?secret=RU3653Z3FMH4D67UKGEH7RGJHCBBYPND&issuer=ACME&algorithm=SHA1&digits=6&period=30
+```
+
 ## Install
 
 **Install node.js 4.0+**:
@@ -17,16 +25,8 @@ npm install --global authenticator-cli
 
 ## Usage
 
-```
+```bash
 authenticator --help
-```
-
-```
-authenticator --generate --issuer "ACME" --account "user@example.com"
-
-Key: ru36 53z3 fmh4 d67u kgeh 7rgj hcbb ypnd
-Token: 947464
-URL: otpauth://totp/ACME:user@example.com?secret=RU3653Z3FMH4D67UKGEH7RGJHCBBYPND&issuer=ACME&algorithm=SHA1&digits=6&period=30
 ```
 
 ## Browser & Node Authenticator
