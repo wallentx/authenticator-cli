@@ -1,6 +1,6 @@
 {
   "name": "authenticator-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A commandline Authenticator App (for Authy, Google Authenticator, Microsoft Authenticator, TOTP / 2FA / MFA / OTP, etc)",
   "main": "index.js",
   "bin": {
